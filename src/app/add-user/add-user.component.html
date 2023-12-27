@@ -1,0 +1,90 @@
+
+<header>
+  <h1>User App</h1>
+  <nav>
+    <ul>
+      <li><a routerLink="/user">Home</a></li>
+     
+  
+    </ul>
+  </nav>
+</header>
+
+<div class="container1" id="border">
+    <form [formGroup]="regform" (ngSubmit)="onSubmit()">
+      
+      <div class="one">
+        <div>
+          <mat-form-field class="increaseSize">
+            <input matInput class="input" placeholder="Enter the Id*" formControlName="id">
+            <mat-error *ngIf="regform.get('id')?.hasError('required') && regform.get('id')?.touched">
+              Id is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      
+      <div class="one">
+        <div>
+          <mat-form-field class="increaseSize">
+            <input matInput class="input" placeholder="Username*" formControlName="name">
+            <mat-error *ngIf="regform.get('name')?.hasError('required') && regform.get('name')?.touched">
+              UserName is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      
+      <div>
+        <mat-form-field class="increaseSize">
+          <input matInput placeholder="Email*" formControlName="email">
+          <mat-error *ngIf="regform.get('email')?.hasError('required') && regform.get('email')?.touched">
+            Email is Required
+          </mat-error>
+          <mat-error *ngIf="regform.get('email')?.hasError('pattern')">
+            Invalid Pattern
+          </mat-error>
+        </mat-form-field>
+      </div>
+      
+      <div>
+        <mat-form-field class="increaseSize">
+          <input matInput placeholder="Contact Number*" formControlName="phone">
+          <mat-error *ngIf="regform.get('phone')?.hasError('pattern')">
+            Contact Number should contain only digits
+          </mat-error>
+          <mat-error *ngIf="regform.get('phone')?.hasError('minlength')">
+            Number at least 10 digits long
+          </mat-error>
+        </mat-form-field>
+      </div>
+      
+      <div>
+        <mat-form-field class="increaseSize">
+          <input matInput placeholder="Website*" formControlName="website">
+          <mat-error *ngIf="regform.get('website')?.hasError('required') && regform.get('website')?.touched">
+            Website is required
+          </mat-error>
+        </mat-form-field>
+      </div>
+      
+      <div>
+        <mat-form-field class="increaseSize">
+          <input matInput placeholder="Company" formControlName="company">
+          <mat-error *ngIf="regform.get('company')?.hasError('required') && regform.get('company')?.touched">
+            Company is required
+          </mat-error>
+        </mat-form-field>
+      </div>
+      
+      <span class="con3">
+        <button type="submit" mat-raised-button color="primary">Submit</button>
+      </span>
+      
+    </form>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 User App . All rights reserved.</p>
+  </footer>
+  

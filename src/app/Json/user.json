@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ryan Anderson",
+      "email": "ryan.a@email.net",
+      "phone": "222-3333-4444",
+      "website": "https://www.ryananderson.tech/",
+      "company": "Anderson Technologies"
+    },
+    {
+      "id": "2",
+      "name": "Aisha",
+      "email": "Aisha@example.com",
+      "phone": "9876543210",
+      "website": "https://www.techworld.com/",
+      "company": "TechWorld Solutions"
+    },
+    
+    {
+      "id": "3",
+      "name": "Raja",
+      "email": "john.doe@email.com",
+      "phone": "555-1234-5678",
+      "website": "https://www.johndoe.com/",
+      "company": "Doe Enterprises"
+    },
+    {
+      "id": "4",
+      "name": "Emily Smith",
+      "email": "emily.smith@mail.net",
+      "phone": "876-5432-1098",
+      "website": "https://www.emilysmithco.com/",
+      "company": "Smith & Co. Solutions"
+    },
+    {
+      "id": "5",
+      "name": "Carlos Rodriguez",
+      "email": "carlos@email.com",
+      "phone": "333-7890-4567",
+      "website": "https://www.crodtech.com/",
+      "company": "C-Rod Technologies"
+    },
+    {
+      "id": "6",
+      "name": "Sophie Johnson",
+      "email": "sophie.j@example.org",
+      "phone": "111-2222-3333",
+      "website": "https://www.sophiejohnson.net/",
+      "company": "Johnson Innovations"
+    },
+    {
+      "id": "7",
+      "name": "David Williams",
+      "email": "david.w@email.com",
+      "phone": "777-8888-9999",
+      "website": "https://www.davidwilliamsco.com/",
+      "company": "Williams Solutions"
+    },
+    {
+      "id": "8",
+      "name": "Mia Chen",
+      "email": "mia@email.com",
+      "phone": "444-5555-6666",
+      "website": "https://www.miachenco.com/",
+      "company": "Chen Technologies"
+    },
+    {
+      "id": "9",
+      "name": "Raj Kapoor",
+      "email": "raj.k@example.in",
+      "phone": "999-0000-1111",
+      "website": "https://www.rajkapoorindustries.com/",
+      "company": "Kapoor Industries"
+    },
+    {
+      "id": "10",
+      "name": "Alice Taylor",
+      "email": "alice.t@example.com",
+      "phone": "666-7777-8888",
+      "website": "https://www.alicetaylorco.com/",
+      "company": "Taylor Solutions"
+    }
+ 
+  ]
+}
